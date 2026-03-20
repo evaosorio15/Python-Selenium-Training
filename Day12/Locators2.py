@@ -1,4 +1,6 @@
-##Locators ClassName, TagName
+#Introduction to various locators for identifying web elements.
+#Built-in locators like ClassName and TagName
+
 
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -11,7 +13,7 @@ driver = webdriver.Chrome(service=serv_obj)
 ##chrome through variable environment
 #driver = webdriver.Chrome()
 
-driver.get("http://www.automationpractice.pl/index.php")
+driver.get("http://automationpractice.com/index.php")
 driver.maximize_window()
 
 ##this will return multiple SLIDERS
