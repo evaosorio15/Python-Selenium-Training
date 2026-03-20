@@ -1,7 +1,3 @@
-#Explores XPath in Selenium using Python.
-# Covers absolute and relative XPath, demonstrating how to write and use them with various attributes and operators.
-
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
@@ -27,10 +23,6 @@ driver.maximize_window()
 #driver.find_element(By.XPATH, "//div[@x-show='!isSubmitting']").click()
 
 
-## OR
-#driver.find_element(By.XPATH, "//button[@class='SiteNavSearch' or @x-ref='siteNavSearchButton']").click()
-## AND
-#driver.find_element(By.XPATH, "//input[@id='siteSearchInput' and @class='FormInput SiteNavSearch-input']").send_keys("Car insurance quotes")
 
 #driver.find_element(By.XPATH, "//div[@x-show='!isSubmitting']").click()
 
